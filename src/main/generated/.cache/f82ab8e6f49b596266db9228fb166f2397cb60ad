@@ -1,0 +1,5 @@
+// 1.20.1	2025-04-19T15:09:09.1708147	Bowl Ore Mod/Recipes
+24c604b7a4168597c5fd965a510f3b7546e78fa6 data\bowl-ore-mod\advancements\recipes\misc\raw_bowl.json
+ab72fe6c81ce85ce90a56a75ed0ea65305f8ffde data\bowl-ore-mod\recipes\raw_bowl.json
+ea1ddecd7bde6b27620fc672061a21826ffaa6e1 data\bowl-ore-mod\recipes\bowl_from_smelting_raw_bowl.json
+5e581660a96b6b8afca0262a5e14be3d370da786 data\bowl-ore-mod\advancements\recipes\misc\bowl_from_smelting_raw_bowl.json

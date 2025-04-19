@@ -1,0 +1,8 @@
+// 1.20.1	2025-04-19T15:09:09.1697576	Bowl Ore Mod/Model Definitions
+d8b42e1e0137ec0c1a0462ac782c6a7be729ce68 assets\bowl-ore-mod\models\item\bowl_ore.json
+405fb59cd03ad7e101fd26c0f0e71b033888a314 assets\bowl-ore-mod\models\item\raw_bowl.json
+54bfdf81ab35beaf1ead7adcb3df9e8276b1163d assets\bowl-ore-mod\models\item\deepslate_bowl_ore.json
+1468ece5a7a759ef6e1759d687186f0e9347d110 assets\bowl-ore-mod\blockstates\deepslate_bowl_ore.json
+65bb0de6da7393095ecb0a01ddd61b06403188ef assets\bowl-ore-mod\blockstates\bowl_ore.json
+520dc939cbdd80a9068d5d96df50560a72911477 assets\bowl-ore-mod\models\block\bowl_ore.json
+3ca61a7e2601729b77b00374000c1c901088df47 assets\bowl-ore-mod\models\block\deepslate_bowl_ore.json
