@@ -5,12 +5,11 @@
 	"name": "Bowl Ore Mod",
 	"description": "A stupid mod I made that lets you obtain bowls through mining because I was under a 10 year long impression that bowls couldn't be crafted and only generated in chests... (Most of code by Kaupenjoe)",
 	"authors": [
-		"marunouchi.",
-		"Kaupenjoe"
+		"marunouchi."
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/bowl-ore-mod/",
+		"sources": "https://github.com/sukaruta/BowlOreMod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/bowl-ore-mod/icon.png",
@@ -26,7 +25,7 @@
 	"depends": {
 		"fabricloader": ">=0.16.13",
 		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
