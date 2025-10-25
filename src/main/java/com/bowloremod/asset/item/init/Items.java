@@ -2,7 +2,6 @@ package com.bowloremod.asset.item.init;
 
 import com.bowloremod.BowlOreMod;
 import com.bowloremod.asset.item.RawBowl;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -13,11 +12,11 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class Items {
-    public static final Item RAW_BOWL = registerItem("raw_bowl", new RawBowl(new FabricItemSettings()));
+    public static final Item RAW_BOWL = registerItem("raw_bowl", new RawBowl(new Item.Settings()));
 
     @SuppressWarnings("SameParameterValue")
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(BowlOreMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(BowlOreMod.MOD_ID, name), item);
     }
 
     @SuppressWarnings("SameParameterValue")

@@ -15,7 +15,7 @@
     "SSS"
   ],
   "result": {
-    "item": "bowl-ore-mod:raw_bowl"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "bowl-ore-mod:raw_bowl"
+  }
 }

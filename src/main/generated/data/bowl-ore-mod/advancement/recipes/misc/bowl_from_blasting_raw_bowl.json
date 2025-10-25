@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "bowl-ore-mod:raw_bowl"
-            ]
+            "items": "bowl-ore-mod:raw_bowl"
           }
         ]
       },
@@ -15,21 +13,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:bowl_from_smelting_raw_bowl"
+        "recipe": "bowl-ore-mod:bowl_from_blasting_raw_bowl"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_raw_bowl",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_raw_bowl"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:bowl_from_smelting_raw_bowl"
+      "bowl-ore-mod:bowl_from_blasting_raw_bowl"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

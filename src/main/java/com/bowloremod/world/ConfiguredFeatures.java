@@ -32,7 +32,7 @@ public class ConfiguredFeatures {
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(BowlOreMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(BowlOreMod.MOD_ID, name));
     }
 
     @SuppressWarnings("SameParameterValue")

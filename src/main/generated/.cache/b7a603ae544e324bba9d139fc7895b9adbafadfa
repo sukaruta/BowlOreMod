@@ -1,3 +1,3 @@
-// 1.20.1	2025-10-26T04:26:30.3124451	Bowl Ore Mod/Block Loot Tables
-77687e3d43fc19b31064b249223ceef601a112d2 data\bowl-ore-mod\loot_tables\blocks\bowl_ore.json
-60397fc33fdc663ef8d2593e2a8470a226ade675 data\bowl-ore-mod\loot_tables\blocks\deepslate_bowl_ore.json
+// 1.21.1	2025-10-26T04:43:21.363147	Bowl Ore Mod/Block Loot Tables
+26b67115bdefd204d79bd4541be6f2a907111b31 data\bowl-ore-mod\loot_table\blocks\deepslate_bowl_ore.json
+02333d9ffabd9e59f60ad2dbe35fb35692bb53c1 data\bowl-ore-mod\loot_table\blocks\bowl_ore.json

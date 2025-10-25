@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bowl"
-            ]
+            "items": "minecraft:bowl"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stone"
-            ]
+            "items": "minecraft:stone"
           }
         ]
       },
@@ -27,22 +23,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:raw_bowl"
+        "recipe": "bowl-ore-mod:raw_bowl"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_stone",
-      "has_bowl",
-      "has_the_recipe"
+      "has_bowl"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:raw_bowl"
+      "bowl-ore-mod:raw_bowl"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
